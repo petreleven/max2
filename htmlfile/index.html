@@ -88,7 +88,7 @@
   <section class="section swiper-container swiper-slider swiper-slider-corporate swiper-pagination-style-2"
     data-loop="true" data-autoplay="5000" data-simulate-touch="true" data-nav="false" data-direction="vertical">
     <div class="swiper-wrapper text-left">
-      <div class="swiper-slide context-dark" data-slide-bg="{static 'Techhubv2/elephants.jpg'}">
+      <div class="swiper-slide context-dark" data-slide-bg="{%static 'Techhubv2/elephants.jpg'%}">
         <div class="swiper-slide-caption section-md">
           <div class="container">
             <div class="row">
@@ -397,15 +397,15 @@
           <div class="thumbnail-mary-figure"><img src=alt="" width="270" height="195" />
           </div>
           <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-              href="{static 'Techhubv2/lions.jpg'}" data-lightgallery="item"><img
+              href="{%static 'Techhubv2/lions.jpg'%}" data-lightgallery="item"><img
                 src="images/gallery-image-1-270x195.jpg" alt="" width="270" height="195" /></a>
           </div>
         </article>
         <!-- Thumbnail Classic-->
         <article class="thumbnail thumbnail-mary">
-          <div class="thumbnail-mary-figure"><img src="elephants.jpg" alt="" width="270" height="195" />
+          <div class="thumbnail-mary-figure"><img src="{%static 'Techhubv2/elephants.jpg'%}" alt="" width="270" height="195" />
           </div>
-          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="elephants.jpg"
+          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="{%static 'Techhubv2/elephants.jpg'%}"
               data-lightgallery="item"><img src="images/gallery-image-2-270x195.jpg" alt="" width="270"
                 height="195" /></a>
           </div>
