@@ -8,6 +8,7 @@ from django.contrib.auth.hashers import make_password
 from django.contrib.auth import logout
 def home (request):
     return render (request , "index.html")
+    
 
 def signin (request):
     print("you did a"+request.method)
@@ -53,3 +54,6 @@ def signup(request):
 def Signout(request):
     logout(request)
     return redirect("signin")
+
+def destination(request):
+    return render (request , "destination.html")
