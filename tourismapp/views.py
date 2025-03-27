@@ -61,4 +61,4 @@ def about(request):
     return render (request ,"about.html")
     
 def cultures(request):
-    return render(request , "cultures")
+    return render(request , "cultures.html")
