@@ -1,2 +1,5 @@
-static/
-templates/
+static/css/*.css linguist-documentation
+static/js/*.js linguist-documentation
+staticfiles/Techhubv2/css/*.css linguist-documentation
+staticfiles/Techhubv2/js/*.js linguist-documentation
+templates/*.html linguist-documentation
